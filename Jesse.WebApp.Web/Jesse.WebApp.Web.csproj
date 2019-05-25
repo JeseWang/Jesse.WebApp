@@ -5,15 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.App" />
-    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <Folder Include="wwwroot\" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Jesse.WebApp.Blo\Jesse.WebApp.Blo.csproj" />
-    <ProjectReference Include="..\Jesse.WebApp.Common\Jesse.WebApp.Common.csproj" />
-    <ProjectReference Include="..\Jesse.WebApp.Dal\Jesse.WebApp.Dal.csproj" />
-    <ProjectReference Include="..\Jesse.WebApp.Entity\Jesse.WebApp.Entity.csproj" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
   </ItemGroup>
 
 </Project>
